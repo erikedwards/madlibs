@@ -11,19 +11,24 @@
 fun = True
 
 while fun:
-    direction = input("Enter a direction in which one could be taken")
-    noun = input("Enter a noun")
-    color = input("Enter a color")
-    plural_noun = input("Enter a plural noun")
-    adj_rhyme = input("Enter an adjective that rhymes with 'City', like maybe 'gritty' or 'shitty' or even 'witty'.")
+    direction = input("Enter a direction in which one could be taken\n")
+    noun = input("Enter a singular noun\n")
+    color = input("Enter a color\n")
+    plural_noun = input("Enter a plural noun\n")
+    adj_rhyme = input("Enter an adjective that rhymes with 'City', like maybe 'gritty' or 'shitty' or even 'witty'.\n")
 
-    print("take me down {}\n"
+    print("\n"
+          "\n"
+          "\n"
+          "take me {}\n"
           "to the paradise city\n"
-          "where the grass {} is green {} \n"
-          "and the girls {} are pretty {}\n"
+          "where the {} is {} \n"
+          "and the {} are {}\n"
           "OH WON'T YOU PLEASE\n"
-          " TAKE ME HOME... WOH-OH-OH-AH".format(direction, noun, color, plural_noun, adj_rhyme))
+          " TAKE ME HOME... WOH-OH-OH-AH\n"
+          "\n"
+          "".format(direction, noun, color, plural_noun, adj_rhyme))
 
-    ans = input("again? (y/n)")
+    ans = input("again? (y/n)\n")
     if ans == "n":
         fun = False
