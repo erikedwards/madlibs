@@ -31,4 +31,5 @@ while fun:
 
     ans = input("again? (y/n)\n")
     if ans == "n":
+        print("ok, importnat guy. Guy fuck off with your important stuff then, dick.")
         fun = False
