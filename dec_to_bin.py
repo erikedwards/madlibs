@@ -31,7 +31,7 @@ while fun:
 
     print("= " + str(bin_val) + " in binary format\n")
 
-    again = input("Play Again? (Enter decimal value or 'x' to fuck off\n")
+    again = input("Again? Enter decimal value or 'x')\n")
     if str(again).lower() == "x":
         fun = False
     else:
